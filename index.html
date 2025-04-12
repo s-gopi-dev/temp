@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kovalam Panchayat</title>
+</head>
+<body class="bg-stone-50">
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="fixed inset-0 flex flex-col items-center justify-center bg-slate-50 z-50">
+        <img src="/assets/images/TamilNadu_Logo.svg" alt="Logo" class="w-32 h-32 animate-pulse zoom-in-out-box">
+        <p class="mt-4 text-gray-950">Loading...</p>
+        <style>
+            .zoom-in-out-box {
+                animation: zoom-in-zoom-out 1s ease infinite;
+                border-radius: 0.5rem;
+            }
+  
+            @keyframes zoom-in-zoom-out {
+                0% {
+                scale: 100%
+                }
+                50% {
+                scale: 150%;
+                }
+                100% {
+                scale: 100%;
+                }
+            }
+            
+        </style>
+    </div>
+
+    <!-- Main Content (Hidden Initially) -->
+    <div id="main-content" class="hidden">
+    <script>
+        function setLanguage(lang) {
+            document.cookie = `language=${lang}; path=/; max-age=31536000`;
+            window.location.href = `/${lang}/index.html`; // Redirect to selected language page
+        }
+    
+        function getLanguage() {
+            const match = document.cookie.match(/(^| )language=([^;]+)/);
+            return match ? match[2] : null;
+        }
+    
+        function detectAndRedirect() {
+            let lang = getLanguage();
+    
+            if (!lang) {
+                lang = navigator.language.startsWith("Ta") ? "Ta" : "En"; // Detect browser language
+                document.cookie = `language=${lang}; path=/; max-age=31536000`; // Save in cookies
+            }
+    
+            // Only redirect if not already on the correct page
+            const currentPath = window.location.pathname;
+            if (!currentPath.startsWith(`/${lang}/`)) {
+                window.location.href = `/${lang}/index.html`;
+            }
+        }
+    
+        // Run the redirection check only on the main index.html
+        if (window.location.pathname === "/index.html" || window.location.pathname === "/") {
+            detectAndRedirect();
+        }
+       
+    </script>
+</body>
+</html>

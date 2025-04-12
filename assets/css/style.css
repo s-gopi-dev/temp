@@ -1,0 +1,167 @@
+html { scroll-behavior: smooth; }
+.bg-move { transform: translateX(-100%); opacity: 0; }
+.section { opacity: 0; transform: translateY(50px); }
+html, body {
+overflow-x: hidden; /* Prevents horizontal scrolling */
+width: 100%; /* Ensures the body takes full width */
+max-width: 100%; /* Prevents exceeding the viewport width */
+}
+
+/* Hide scrollbar for all browsers */
+.w-full.overflow-x-auto::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.w-full.overflow-x-auto {
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.ribbon-content {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #f6863b;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    right: -25px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+/* added at last */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+.animate-fade-in-up { animation: fadeInUp 1s ease-out forwards; }
+.animate-slide-in { animation: slideIn 1s ease-out forwards; }
+.animate-fade-in { animation: fadeInUp 1.5s ease-out forwards; }
+
+/* Animations */
+@keyframes fadeInSlide {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOutSlide {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.update-item {
+    animation: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-animation 3s infinite linear;
+}
+#updates-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+
+}
+
+#updates-container {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    overflow: hidden;
+    position: relative;
+}
+/* added at last */
+/* News only for mobile screen */
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+#newsModal {
+z-index: 9999; /* Higher than other elements */
+
+}
+
+#main-content {
+opacity: 0.9; /* Reduce opacity of main content */
+/* pointer-events: none; Disable interactions with main content */
+}
+.ticker-content {
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    animation: ticker 20s linear infinite;
+}
+
+
+/* news modal for larger screens  */
+ /* Animations */
+ @keyframes fadeInSlide {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.update-item {
+    animation: fadeInSlide 0.6s ease-in-out;
+}
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-animation 3s infinite linear;
+}
+#updates-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+}
+
+#updates-container {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+.animate-fade-in-up { animation: fadeInUp 1s ease-out forwards; }
+.animate-slide-in { animation: slideIn 1s ease-out forwards; }
+.animate-fade-in { animation: fadeInUp 1.5s ease-out forwards; }
+
+/* Hide scrollbar for Webkit-based browsers (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
+  
+  /* Hide scrollbar for IE & Edge */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+  }
+  

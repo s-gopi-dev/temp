@@ -1,0 +1,84 @@
+{
+    "water": {
+      "1": ["/assets/images/OHTChlorination/C-1.JPG", "/assets/images/OHTChlorination/C-2.JPG", "/assets/images/OHTChlorination/C-3.JPG", "/assets/images/OHTChlorination/C-4.JPG"],
+      "2": ["/assets/images/OHTChlorination/well-1.jpg"],
+      "3": ["conserve1.jpg", "conserve2.jpg", "conserve3.jpg", "conserve4.jpg", "conserve5.jpg", "conserve6.jpg"],
+      "4": ["waste1.jpg", "waste2.jpg", "waste3.jpg", "waste4.jpg", "waste5.jpg"],
+      "5": ["/assets/images/OHTChlorination/C-1.JPG", "/assets/images/OHTChlorination/C-2.JPG", "/assets/images/OHTChlorination/C-3.JPG", "/assets/images/OHTChlorination/C-4.JPG"],
+      "6": ["/assets/images/OHTChlorination/CH-1.JPG", "/assets/images/OHTChlorination/CH-2.JPG", "/assets/images/OHTChlorination/CH-3.JPG", "/assets/images/OHTChlorination/CH-4.JPG","/assets/images/OHTChlorination/CH-5.JPG", "/assets/images/OHTChlorination/CH-6.JPG", "/assets/images/OHTChlorination/CH-7.JPG", "/assets/images/OHTChlorination/CH-8.JPG","/assets/images/OHTChlorination/CH-9.JPG", "/assets/images/OHTChlorination/CH-10.JPG"]
+    },
+    "electric": {
+      "1": ["/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg"],
+      "2": ["/assets/images/powerline1.jpg", "/assets/images/powerline2.jpg", "/assets/images/powerline3.jpg", "/assets/images/powerline4.jpg"],
+      "3": ["/assets/images/electricpole1.jpg", "/assets/images/electricpole2.jpg", "/assets/images/electricpole3.jpg", "/assets/images/electricpole4.jpg"],
+      "4": ["/assets/images/transformer1.jpg", "/assets/images/transformer2.jpg", "/assets/images/transformer3.jpg", "/assets/images/transformer4.jpg"],
+      "5": ["/assets/images/substation1.jpg", "/assets/images/substation2.jpg", "/assets/images/substation3.jpg", "/assets/images/substation4.jpg"]
+    },
+    "drainage": {
+      "1": ["/assets/images/UGW/1.JPEG", "/assets/images/UGW/2.jpg", "/assets/images/UGW/3.jpeg", "/assets/images/UGW/4.jpg"],
+      "2": ["/assets/images/UGW/1.JPEG", "/assets/images/UGW/2.jpg", "/assets/images/UGW/3.jpeg", "/assets/images/UGW/4.jpg"],
+      "3": ["/assets/images/UGW/1.JPEG", "/assets/images/UGW/2.jpg", "/assets/images/UGW/3.jpeg", "/assets/images/UGW/4.jpg"]
+    },
+    "disaster": {
+      "1": ["/assets/images/northEastMonsoon/20241015_133936.jpg", "/assets/images/northEastMonsoon/20241015_183944.jpg", "/assets/images/northEastMonsoon/IMG_4435.JPG", "/assets/images/northEastMonsoon/IMG_4558.JPG","/assets/images/northEastMonsoon/IMG_4682.JPG"],
+      "2": ["/assets/images/northEastMonsoon/kit.HEIC.jpg","/assets/images/northEastMonsoon/IMG_5901.JPG","/assets/images/northEastMonsoon/IMG_5758.HEIC.jpg"],
+      "3": ["/assets/images/fireStation/IMG_1381.JPG", "/assets/images/fireStation/IMG_1389.JPG", "/assets/images/fireStation/IMG_1585.JPG", "/assets/images/fireStation/IMG_1605.JPG","/assets/images/fireStation/IMG_1758.jpg"]
+     },
+    "other": {
+      "1": ["/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg", "/assets/images/panchayat.jpg"],
+      "2": ["/assets/images/northEastMonsoon/IMG_2093.jpg", "/assets/images/northEastMonsoon/IMG_2093.jpg", "/assets/images/northEastMonsoon/IMG_2093.jpg", "/assets/images/northEastMonsoon/IMG_2093.jpg"],
+      "3": ["/assets/images/community1.jpg", "/assets/images/community2.jpg", "/assets/images/community3.jpg", "/assets/images/community4.jpg"],
+      "4": ["/assets/images/community1.jpg", "/assets/images/community2.jpg", "/assets/images/community3.jpg", "/assets/images/community4.jpg"],
+      "5": ["/assets/images/community1.jpg", "/assets/images/community2.jpg", "/assets/images/community3.jpg", "/assets/images/community4.jpg"]
+    },
+    "achievement": {
+      "1": ["/assets/images/humanitarian1.jpg", "/assets/images/humanitarian2.jpg", "/assets/images/humanitarian3.jpg", "/assets/images/humanitarian4.jpg"],
+      "2": ["/assets/images/fireStation/", "/assets/images/", "/assets/images/", "/assets/images/","/assets/images/"],
+      "3": ["/assets/images/fireStation/IMG_1010 (1).HEIC.jpg","/assets/images/fireStation/IMG_1381.JPG","/assets/images/fireStation/IMG_1389.JPG","/assets/images/fireStation/IMG_1585.JPG","/assets/images/fireStation/IMG_1605.JPG","/assets/images/fireStation/IMG_1758.jpg"],
+      "4": ["/assets/images/aadhar_camp/", "/assets/images/", "/assets/images/", "/assets/images/"],
+      "5": ["/assets/images/elderly1.jpg", "/assets/images/elderly2.jpg", "/assets/images/elderly3.jpg", "/assets/images/elderly4.jpg"],
+      "6": ["/assets/images/sports1.jpg", "/assets/images/sports2.jpg", "/assets/images/sports3.jpg", "/assets/images/sports4.jpg"]
+    },
+    "anganvadi": {
+      "1": ["/assets/images/infrastructure/Anganwadi/1.jpg", "/assets/images/infrastructure/Anganwadi/2.jpg", "/assets/images/infrastructure/Anganwadi/3.jpg", "/assets/images/infrastructure/Anganwadi/4.jpg","/assets/images/infrastructure/Anganwadi/5.jpg", "/assets/images/infrastructure/Anganwadi/6.jpg","/assets/images/infrastructure/Anganwadi/8.jpg"],
+      "2": [ "/assets/images/awards/C10.jpg","/assets/images/awards/C9.jpg","/assets/images/awards/C1.jpg","/assets/images/awards/C5.jpg","/assets/images/awards/C6.jpg","/assets/images/awards/C7.jpg","/assets/images/awards/C8.jpg","/assets/images/awards/C2.jpg", "/assets/images/awards/C3.jpg", "/assets/images/awards/C4.jpg"]
+    },
+    "toilet": {
+      "1": ["/assets/images/infrastructure/publicToilet/1.jpg", "/assets/images/infrastructure/publicToilet/2.jpg", "/assets/images/infrastructure/publicToilet/3.jpg", "/assets/images/infrastructure/publicToilet/4.jpg","/assets/images/infrastructure/publicToilet/5.jpg","/assets/images/infrastructure/publicToilet/6.jpg"],
+      "2": [ "/assets/images/infrastructure/ECRSchool/T-1.jpg",   "/assets/images/infrastructure/ECRSchool/T-2.JPEG",   "/assets/images/infrastructure/ECRSchool/T-3.JPEG", "/assets/images/infrastructure/ECRSchool/T-4.JPEG",   "/assets/images/infrastructure/ECRSchool/T-5.JPEG",   "/assets/images/infrastructure/ECRSchool/T-6.JPEG", "/assets/images/infrastructure/ECRSchool/T-7.JPEG",   "/assets/images/infrastructure/ECRSchool/T-8.JPEG",   "/assets/images/infrastructure/ECRSchool/T-9.JPEG", "/assets/images/infrastructure/ECRSchool/T-10.JPEG",   "/assets/images/infrastructure/ECRSchool/T-11.jpg",   "/assets/images/infrastructure/ECRSchool/T-12.jpg"],
+      "3": [ "/assets/images/infrastructure/ECRSchool/T-1.jpg",   "/assets/images/infrastructure/ECRSchool/T-2.JPEG",   "/assets/images/infrastructure/ECRSchool/T-3.JPEG", "/assets/images/infrastructure/ECRSchool/T-4.JPEG",   "/assets/images/infrastructure/ECRSchool/T-5.JPEG",   "/assets/images/infrastructure/ECRSchool/T-6.JPEG", "/assets/images/infrastructure/ECRSchool/T-7.JPEG",   "/assets/images/infrastructure/ECRSchool/T-8.JPEG",   "/assets/images/infrastructure/ECRSchool/T-9.JPEG", "/assets/images/infrastructure/ECRSchool/T-10.JPEG",   "/assets/images/infrastructure/ECRSchool/T-11.jpg",   "/assets/images/infrastructure/ECRSchool/T-12.jpg"]
+    },
+    "school": {
+      "1": ["/assets/images/infrastructure/ECRSchool/S-1.jpg", "/assets/images/infrastructure/ECRSchool/S-2.jpg", "/assets/images/infrastructure/ECRSchool/S-3.jpg", "/assets/images/infrastructure/ECRSchool/S-4.jpg","/assets/images/infrastructure/ECRSchool/S-5.jpg", "/assets/images/infrastructure/ECRSchool/S-6.jpg", "/assets/images/infrastructure/ECRSchool/S-7.jpg", "/assets/images/infrastructure/ECRSchool/S-8.jpg"],
+      "2": ["/assets/images/infrastructure/ECRSchool/C-1.JPEG","/assets/images/infrastructure/ECRSchool/C-2.jpg","/assets/images/infrastructure/ECRSchool/S-3.jpg","/assets/images/infrastructure/ECRSchool/S-1.jpg", "/assets/images/infrastructure/ECRSchool/S-2.jpg", "/assets/images/infrastructure/ECRSchool/S-3.jpg", "/assets/images/infrastructure/ECRSchool/S-4.jpg","/assets/images/infrastructure/ECRSchool/S-5.jpg", "/assets/images/infrastructure/ECRSchool/S-6.jpg", "/assets/images/infrastructure/ECRSchool/S-7.jpg", "/assets/images/infrastructure/ECRSchool/S-8.jpg"],
+      "3":  [ "/assets/images/awards/C10.jpg","/assets/images/awards/C9.jpg","/assets/images/awards/C1.jpg","/assets/images/awards/C5.jpg","/assets/images/awards/C6.jpg","/assets/images/awards/C7.jpg","/assets/images/awards/C8.jpg","/assets/images/infrastructure/ECRSchool/1.jpg", "/assets/images/infrastructure/ECRSchool/2.jpg", "/assets/images/infrastructure/ECRSchool/3.jpg", "/assets/images/infrastructure/ECRSchool/4.jpg", "/assets/images/infrastructure/ECRSchool/5.jpg", "/assets/images/infrastructure/ECRSchool/6.jpg", "/assets/images/infrastructure/ECRSchool/7.jpg", "/assets/images/infrastructure/ECRSchool/8.jpg", "/assets/images/infrastructure/ECRSchool/9.jpg", "/assets/images/infrastructure/ECRSchool/10.jpg", "/assets/images/infrastructure/ECRSchool/11.jpg", "/assets/images/infrastructure/ECRSchool/12.jpg", "/assets/images/infrastructure/ECRSchool/13.jpg", "/assets/images/infrastructure/ECRSchool/14.jpg", "/assets/images/infrastructure/ECRSchool/15.jpg", "/assets/images/infrastructure/ECRSchool/16.jpg", "/assets/images/infrastructure/ECRSchool/17.jpg"]
+    },
+    "library": {
+      "1": ["/assets/images/infrastructure/library/1.png", "/assets/images/infrastructure/library/2.jpg", "/assets/images/infrastructure/library/3.jpg", "/assets/images/infrastructure/library/4.jpg", "/assets/images/infrastructure/library/5.jpg","/assets/images/infrastructure/library/6.jpg"],
+      "2": ["/assets/images/infrastructure/library/1.png", "/assets/images/infrastructure/library/2.jpg", "/assets/images/infrastructure/library/3.jpg", "/assets/images/infrastructure/library/4.jpg", "/assets/images/infrastructure/library/5.jpg","/assets/images/infrastructure/library/6.jpg"]
+    },
+    "meetingHall": {
+      "1": ["/", "/", "/", "/"],
+      "2": ["/", "/", "/", "/"],
+      "3": ["/", "/", "/", "/"]
+    },
+    "pond": {
+     "1": ["/", "/", "/", "/"],
+      "2": ["/", "/", "/", "/"],
+      "3": ["/", "/", "/", "/"]
+    },
+    "well": {
+     "1":  ["/assets/images/OHTCleaning/1.jpg", "/assets/images/OHTCleaning/2.jpg", "/assets/images/OHTCleaning/3.jpg", "/assets/images/OHTCleaning/4.jpg"],
+     "2":  ["/assets/images/OHTChlorination/CH-10.jpg", "/assets/images/OHTChlorination/CH-8.jpg", "/assets/images/OHTChlorination/well-1.jpg"]
+    },
+    "road": {
+      "1": ["/assets/images/ROAD/annaNagar/42.jpg","/assets/images/ROAD/annaNagar/DJI_0700.JPG","/assets/images/ROAD/annaNagar/KFAP8234.JPG","/assets/images/ROAD/ansariNagar/45.jpeg"],
+      "2": ["/assets/images/ROAD/annaNagar/Anna nagar paver block road .jpg","/assets/images/ROAD/ansariNagar/aansari nagar paver block road final.jpg","/assets/images/ROAD/nachiyarKullam/nachiyar kulam road.jpg","/assets/images/ROAD/senginiyammanKovilSt/32.jpg"],
+      "3": ["/assets/images/ROAD/senginiyammanKovilSt/32.jpg","/assets/images/ROAD/annaNagar/DJI_0700.JPG","/assets/images/ROAD/ansariNagar/45.jpeg","/assets/images/ROAD/nachiyarKullam/nachiyar kulam road.jpg"]
+    },
+    "busStand": {
+      "1": ["/assets/images/busStop/bus stop .jpg","/assets/images/busStop/IMG_6476.JPG","/assets/images/busStop/IMG_6494.JPG","/assets/images/busStop/IMG_6526.JPG"],
+      "2": ["/assets/images/busStop/IMG_6476.JPG","/assets/images/busStop/IMG_6494.JPG","/assets/images/busStop/IMG_6526.JPG","/assets/images/busStop/bus stop .jpg"],
+      "3": ["/assets/images/busStop/IMG_6526.JPG","/assets/images/busStop/bus stop .jpg","/assets/images/busStop/IMG_6476.JPG","/assets/images/busStop/IMG_6494.JPG"]
+    }
+  }

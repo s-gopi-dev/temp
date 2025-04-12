@@ -1,0 +1,272 @@
+[
+    {
+        "id": "Certificate-1",
+        "title": "Community Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "Father/Mother Community Certificate"
+        ],
+        "images": [
+            "/assets/images/taxs/birth certificate.jpg"
+        ],
+        "time": "7 days"
+    },
+    {
+        "id": "Certificate-2",
+        "title": "Income Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card"
+        ],
+        "images": ["/assets/images/taxs/building license.jpg"],
+        "time": "7 days"
+        },
+        {
+        "id": "Certificate-3",
+        "title": "Residence Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card"
+        ],
+        "images": [ "/assets/images/taxs/certificate 1.jpg"],
+        "time": "7 days"
+    },
+    {
+        "id": "Certificate-4",
+        "title": "Nativity Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "Father/Mother Community Certificate",
+            "Birth Certificate (OR) School TC"
+        ],
+        "images": ["/assets/images/taxs/certificate.jpg"],
+        "time": "7 days"
+    },
+    {
+        "id": "Certificate-5",
+        "title": "Other Backward Class(OBC) Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "School TC",
+            "Family Members Education Qualification Details"
+        ],
+        "images": ["/assets/images/taxs/community certificate.jpg"],
+        "time": "7 days"
+    },
+    {
+        "id": "Certificate-6",
+        "title": "First Graduate Certificate",
+        "documents": [
+            "Applicant Photo",
+            "School Transfer Certificate"
+        ],
+        "images": [ "/assets/images/taxs/trade license.jpg"],
+        "time": "10 days"
+    },
+    {
+        "id": "Certificate-7",
+        "title": "Tamil Medium Certificate (PSTM)",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "Husband Death Certificate"
+        ],
+        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "time": "7 days"
+    },
+    {
+        "id": "Certificate-8",
+        "title": "Widow Certificate",
+        "documents": [
+            "Death Person Death Certificate",
+            "Death Person Aadhar Card",
+            "Death Person Smart Card",
+            "Death Person Family Members Aadhar Card",
+            "Applicant Photo"
+        ],
+        "images": [ "/assets/images/taxs/building license.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-9",
+        "title": "Legal Heir Certificate",
+        "documents": [
+            "Family Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "Birth Certificate of Girls",
+            "Residence Certificate",
+            "Mother Sterilization Certificate"
+        ],
+        "images": ["/assets/images/taxs/certificate 1.jpg"],
+        "time": "30 days"
+    },
+    {
+        "id": "Certificate-10",
+        "title": "No Male Child Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Aadhaar Card",
+            "Smart Card",
+            "Husband Death Certificate",
+            "Widow Certificate",
+            "Bank Passbook"
+        ],
+        "images": [ "/assets/images/taxs/certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-11",
+        "title": "Destitute Widow Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Applying Person Aadhaar Card",
+            "Smart Card",
+            "Marriage Invitation"
+        ],
+        "images": ["/assets/images/taxs/community certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-12",
+        "title": "Unmarried Certificate",
+        "documents": [
+            "Applicant Photo",
+            "Aadhaar Card",
+            "Smart Card",
+            "Bank Passbook"
+        ],
+        "images": [ "/assets/images/taxs/trade license.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-13",
+        "title": "Indira Gandhi National Old Age Pension Scheme (IGNOPS)",
+        "documents": [
+            "Applicant Photo",
+            "Proof Of Residence",
+            "Proof Of Marriage",
+            "Proof Of Desertion FIR Details"
+        ],
+        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "time": "30 days"
+    },
+    {
+        "id": "Certificate-14",
+        "title": "Differently Abled Pension (DAPS)",
+        "documents": [
+            "Applicant Photo",
+            "Aadhaar Card",
+            "Fishermen Cooperative Society Passbook With Photo",
+            "Bank Passbook",
+            "Smart Card",
+            "Bio Metric Identity Card",
+            "Voter ID",
+            "Address Proof (If the Given Residential Address is Different From Aadhar)"
+        ],
+        "images": [ "/assets/images/taxs/building license.jpg"],
+        "time": "30 days"
+    },
+    {
+        "id": "Certificate-15",
+        "title": "Deserted Woman Certificate",
+        "documents": [
+            "Applicant Recent Photo",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Smart Card",
+            "Fisherman Cooperative Society Passbook With Photo",
+            "Voter ID"
+        ],
+        "images": ["/assets/images/taxs/certificate 1.jpg"],
+        "time": "30 days"
+    },
+    {
+        "id": "Certificate-16",
+        "title": "Renewal of Relief Assistance to Marine Fisherman During Ban Period",
+        "documents": [
+            "Challan Payment (Drink & Drive, Driving License, Insurance, Going Without A Helmet)"
+        ],
+        "images": [ "/assets/images/taxs/birth certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-17",
+        "title": "Renewal of Special Allowance to Marine Fisherman During Fishing Lean Period",
+        "documents": [
+            "Challan Payment (Drink & Drive, Driving License, Insurance, Going Without A Helmet)"
+        ],
+        "images": ["/assets/images/taxs/community certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-18",
+        "title": "Traffic Police",
+        "documents": [
+            "Applicant Photo",
+            "Aadhaar Card",
+            "Payment 500/-"
+        ],
+        "images": [ "/assets/images/taxs/trade license.jpg"],
+        "time": "2 days"
+    },
+    {
+        "id": "Certificate-19",
+        "title": "Police Verification (NOC)",
+        "documents": [
+            "Application For New Ration Card",
+            "Addition Of New Family Member In Ration Card",
+            "Removal Of Family Member In Ration Card",
+            "Change of Mobile Number In Ration Card",
+            "Change of Address In Ration Card",
+            "Smart Card"
+        ],
+        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-20",
+        "title": "Department of Civil Supplies and Consumer Protection",
+        "documents": [
+            "Applicant Photo",
+            "Family Members Aadhaar Card",
+            "Smart Card",
+            "Father/Mother Community Certificate"
+        ],
+        "images": [ "/assets/images/taxs/birth certificate.jpg"],
+        "time": "15 days"
+    },
+    {
+        "id": "Certificate-21",
+        "title": "Department of Employment and Training",
+        "documents": [
+            "Aadhaar Card",
+            "Community Certificates",
+            "10th & 12th Marksheet & TC",
+            "Additional Skills Certificate"
+        ],
+        "images": ["/assets/images/taxs/building license.jpg"],
+        "time": "2 days"
+    },
+    {
+        "id": "Certificate-22",
+        "title": "Aadhar Card Address Change",
+        "documents": [
+            "Gas Connection Bills",
+            "Property Tax",
+            "Voter Identity Card",
+            "Bank Passbook"
+        ],
+        "images": [ "/assets/images/taxs/certificate 1.jpg"],
+        "time": "15 days"
+    }
+]

@@ -1,0 +1,53 @@
+{
+    "OHT": [
+        { "name": "Kundrukadu", "year": 1996, "capacity": "30,000L" },
+        { "name": "Thulukanathamman Kovil Street", "year": 2001, "capacity": "30,000L" },
+        { "name": "Semmencherry Kuppam", "year": 2006, "capacity": "30,000L" },
+        { "name": "Nadu Colony", "year": 2019, "capacity": "60,000L" },
+        { "name": "Kadaisy Colony", "year": 2019, "capacity": "60,000L" },
+        { "name": "Ansari Nagar", "year": 2006, "capacity": "60,000L" },
+        { "name": "Fish Market", "year": 2006, "capacity": "60,000L" },
+        { "name": "Carmel Nagar", "year": 2001, "capacity": "60,000L" },
+        { "name": "Nachiyar Kulam", "year": 1996, "capacity": "60,000L" },
+        { "name": "Old Panchayat Office", "year": 2020, "capacity": "70,000L" },
+        { "name": "Bajanai Kovil Street", "year": 1986, "capacity": "1,00,000L" },
+        { "name": "Semmencherry Village", "year": 2019, "capacity": "60,000L" }
+    ],
+    "Ponds": [
+        { "name": "Pound Kulam" },
+        { "name": "Chetti Kulam_Ansari Nagar" },
+        { "name": "Shivan Kulam_Semmencherry Kuppam" },
+        { "name": "Nachiyar Kulam" },
+        { "name": "Dargha Kulam" },
+        { "name": "Konanthangal Yeri" }
+    ],
+    "Wells": [
+    {
+      "name": "Semmencherry Kuppam Well"
+    },
+    {
+      "name": "Semmencherry Village Sudukadu Well"
+    },
+    {
+      "name": "Kovalam Kuppam Sudukadu Well"
+    },
+    {
+      "name": "Kovalam Village Sudukadu Well"
+    },
+    {
+      "name": "Puthu Majith Street Well"
+    },
+    {
+      "name": "Carmel Nagar Well"
+    },
+    {
+      "name": "Kailasanathar Kovil Street Well"
+    },
+    {
+      "name": "Ansari Nagar Small Well"
+    },
+    {
+      "name": "Teachers Colony Well"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "members": [
+    {
+      "name": "P.ADHILAKSHMI PERUMAL",
+      "position": "VICE PRESIDENT ( WARD 2 )",
+      "image": "/assets/images/members/vice president.jpg",
+      "bio": "Dedicated leader committed to the development of Ward 2 and Kovalam Panchayat. Passionate about social welfare and community service.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "B.YASMIN BASKAR",
+      "position": "COUNCILLOR",
+      "image": "/assets/images/members/yasminBashar.png",
+      "bio": "Actively working towards the betterment of the community, focusing on education, healthcare, and women's empowerment.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "A.MOHAMMED ILLIYAS",
+      "position": "BCA, MBA Ward 1",
+      "image": "/assets/images/members/round 1  ward.jpg",
+      "bio": "Tech-savvy representative dedicated to digital transformation and youth empowerment in Ward 1.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "G. SATHYA GANESH",
+      "position": "Ward 3",
+      "image": "/assets/images/members/round 3 ward.jpg",
+      "bio": "Committed to improving infrastructure and public amenities for the residents of Ward 3.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "V.PADMAVATHI VEERARAGAVAN",
+      "position": "Ward 4",
+      "image": "/assets/images/members/round 4 ward.jpg",
+      "bio": "Advocate for women's rights and social development programs in Ward 4.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "S.DHANALAKSHMI SANKAR",
+      "position": "Ward 5",
+      "image": "/assets/images/members/round 5 ward.jpg",
+      "bio": "Focused on improving education and healthcare facilities for the people of Ward 5.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "A.CHANDRABABU",
+      "position": "Ward 6",
+      "image": "/assets/images/members/round 6 ward.jpg",
+      "bio": "Works tirelessly for better sanitation, public safety, and road development in Ward 6.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "M.BALKIS MOULA",
+      "position": "Ward 7",
+      "image": "/assets/images/members/round 7 ward.jpg",
+      "bio": "Committed to community well-being, youth programs, and employment opportunities in Ward 7.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "M.DHANALAKSHMI MURUGAN",
+      "position": "Ward 8",
+      "image": "/assets/images/members/round 8 ward.jpg",
+      "bio": "Advocates for senior citizen welfare and accessible public services in Ward 8.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "SAMPATH",
+      "position": "Ward 9",
+      "image": "/assets/images/members/round 9 ward.jpg",
+      "bio": "Works towards better waste management and environmental sustainability in Ward 9.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "S.MATHAN RAJ",
+      "position": "Clerk D.A.E",
+      "image": "/assets/images/members/clerk passport.jpg",
+      "bio": "Administrative expert ensuring smooth governance and efficient service delivery for Kovalam Panchayat.",
+      "social": {
+        "twitter": "#",
+        "facebook": "#",
+        "instagram": "#"
+      }
+    }
+  ]
+}
+
+
