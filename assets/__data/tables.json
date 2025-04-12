@@ -1,17 +1,17 @@
 {
     "OHT": [
-        { "name": "Kundrukadu", "year": 1996, "capacity": "30,000L" },
-        { "name": "Thulukanathamman Kovil Street", "year": 2001, "capacity": "30,000L" },
-        { "name": "Semmencherry Kuppam", "year": 2006, "capacity": "30,000L" },
-        { "name": "Nadu Colony", "year": 2019, "capacity": "60,000L" },
-        { "name": "Kadaisy Colony", "year": 2019, "capacity": "60,000L" },
-        { "name": "Ansari Nagar", "year": 2006, "capacity": "60,000L" },
-        { "name": "Fish Market", "year": 2006, "capacity": "60,000L" },
-        { "name": "Carmel Nagar", "year": 2001, "capacity": "60,000L" },
-        { "name": "Nachiyar Kulam", "year": 1996, "capacity": "60,000L" },
-        { "name": "Old Panchayat Office", "year": 2020, "capacity": "70,000L" },
-        { "name": "Bajanai Kovil Street", "year": 1986, "capacity": "1,00,000L" },
-        { "name": "Semmencherry Village", "year": 2019, "capacity": "60,000L" }
+        { "name": "Kundrukadu","capacity": "30,000L" },
+        { "name": "Thulukanathamman Kovil Street","capacity": "30,000L" },
+        { "name": "Semmencherry Kuppam","capacity": "30,000L" },
+        { "name": "Nadu Colony","capacity": "60,000L" },
+        { "name": "Kadaisy Colony","capacity": "60,000L" },
+        { "name": "Ansari Nagar","capacity": "60,000L" },
+        { "name": "Fish Market","capacity": "60,000L" },
+        { "name": "Carmel Nagar","capacity": "60,000L" },
+        { "name": "Nachiyar Kulam","capacity": "60,000L" },
+        { "name": "Old Panchayat Office", "capacity": "70,000L" },
+        { "name": "Bajanai Kovil Street", "capacity": "1,00,000L" },
+        { "name": "Semmencherry Village", "capacity": "60,000L" }
     ],
     "Ponds": [
         { "name": "Pound Kulam" },
