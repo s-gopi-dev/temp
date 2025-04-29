@@ -84,6 +84,7 @@ function showTable(type) {
                             <thead class="bg-amber-50">
                                 <tr>
                                     <th class="px-4 py-3 text-left text-xs text-amber-600 uppercase tracking-wider">OHT Name</th>
+                                    <th class="px-4 py-3 text-left text-xs text-amber-600 uppercase tracking-wider">Year</th>
                                     <th class="px-4 py-3 text-left text-xs text-amber-600 uppercase tracking-wider">Capacity</th>
                                 </tr>
                             </thead>
@@ -94,6 +95,7 @@ function showTable(type) {
                     contentHtml += `
                         <tr class="opacity-0 transform translate-y-4 transition-all duration-700">
                             <td class="px-4 py-3 whitespace-nowrap text-lg sm:text-xl text-gray-950">${entry.name}</td>
+                            <td class="px-4 py-3 whitespace-nowrap text-lg sm:text-xl text-gray-950">${entry.year}</td>
                             <td class="px-4 py-3 whitespace-nowrap text-lg sm:text-xl text-gray-950">${entry.capacity}</td>
                         </tr>
                     `;
@@ -257,7 +259,7 @@ function showContent(type) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll(targetSelector);
