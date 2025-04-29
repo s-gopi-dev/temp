@@ -126,7 +126,7 @@ function ElectedMembers(containerId, members) {
         gsap.to(wrapper, {
             opacity: 1,
             scale: 1,
-            duration: 0.8,
+            duration: 0.4,
             ease: "power2.out",
             delay: index * 0.3,
         });
@@ -169,7 +169,7 @@ function createImageGallery(container, images, sectionTitle) {
         gsap.to(wrapper, {
             opacity: 1,
             scale: 1,
-            duration: 0.8,
+            duration: 0.4,
             ease: "power2.out",
             delay: index * 0.3 // Ensures images load one by one
         });
@@ -216,7 +216,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Electricity div");
@@ -232,7 +232,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Drainage div");
@@ -248,7 +248,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Disaster_Management div");
@@ -268,7 +268,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#AadharCamp div");
@@ -284,7 +284,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#MedicalCamp div");
@@ -295,12 +295,43 @@ function MobileShowList(sectionId) {
                 }
             });;
         }
+        if (sectionId === "GramaSabhaCamp") {
+            gsap.from("#GramaSabhaCamp div", {
+                opacity: 0,
+                y: 50,
+                stagger: 0.2,
+                duration: 0.5,
+                ease: "power3.out",
+                onComplete: function () {
+                    let elements = document.querySelectorAll("#GramaSabhaCamp div");
+                    elements.forEach(el => {
+                        el.style.removeProperty("opacity");  // Removes GSAP inline opacity
+                        el.style.removeProperty("transform"); // Removes GSAP inline transform
+                    });
+                }
+            });
+            gsap.from("#GramaSabhaCamp .grid-item", {
+                opacity: 0,
+                y: 30,
+                stagger: 0.1,
+                duration: 0.4,
+                delay: 0.3, // Add a slight delay so grid items animate after main divs
+                ease: "power2.out",
+                onComplete: function () {
+                    let gridItems = document.querySelectorAll("#GramaSabhaCamp .grid-item");
+                    gridItems.forEach(item => {
+                        item.style.removeProperty("opacity");
+                        item.style.removeProperty("transform");
+                    });
+                }
+            });
+        }
         if (sectionId === "PanCardCamp") {
             gsap.from("#PanCardCamp div", {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PanCardCamp div");
@@ -316,7 +347,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#VoterIDCamp div");
@@ -332,7 +363,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#BeachCleaning div");
@@ -348,7 +379,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Anganvadi div");
@@ -364,7 +395,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Schools div");
@@ -380,7 +411,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Library div");
@@ -396,7 +427,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.25, // Adjust the stagger timing
-                duration: 1.5,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicHotels > div > div > div");
@@ -412,7 +443,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#HealthCare div");
@@ -428,7 +459,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicPostOffice div");
@@ -444,7 +475,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicToilet div");
@@ -460,7 +491,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Meeting_Halls div");
@@ -476,7 +507,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Ponds div");
@@ -492,7 +523,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Roads div");
@@ -508,7 +539,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#BusStand div");
@@ -525,7 +556,7 @@ function MobileShowList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#garbageImageGallery div");
@@ -540,18 +571,18 @@ function MobileShowList(sectionId) {
         AOS.refresh();
         gsap.fromTo(activeSection.querySelectorAll('.section'), 
             { opacity: 0, y: 50 },
-            { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", stagger: 0.3 }
+            { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", stagger: 0.3 }
         );
     }
 };
 
 function animateTaxManagement() {
-    gsap.from("#Tax_Management h1", { opacity: 0, y: -30, duration: 0.8, ease: "power2.out" });
+    gsap.from("#Tax_Management h1", { opacity: 0, y: -30, duration: 0.4, ease: "power2.out" });
 
     gsap.from("#Tax_Management .grid > div", { 
         opacity: 0, 
         y: 50, 
-        duration: 1, 
+        duration: 0.5, 
         ease: "power2.out",
         stagger: 0.3
     });
@@ -559,7 +590,7 @@ function animateTaxManagement() {
     gsap.from("#Tax_Management img", { 
         opacity: 0, 
         scale: 0.8, 
-        duration: 1, 
+        duration: 0.5, 
         ease: "power2.out",
         stagger: 0.2 
     });
@@ -568,7 +599,7 @@ function animateTaxManagement() {
 function animateManagement(Management) {
     Management.classList.remove("hidden"); 
     gsap.from(Management, {
-        duration: 1,
+        duration: 0.5,
         opacity: 0,
         scale: 0.9,
         ease: "power2.out"
@@ -601,7 +632,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Electricity div");
@@ -617,7 +648,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Drainage div");
@@ -633,7 +664,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Disaster_Management div");
@@ -653,7 +684,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#AadharCamp div");
@@ -669,7 +700,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#MedicalCamp div");
@@ -680,12 +711,44 @@ function showList(sectionId) {
                 }
             });;
         }
+        if (sectionId === "GramaSabhaCamp") {
+            gsap.from("#GramaSabhaCamp > div", {
+                opacity: 0,
+                y: 50,
+                stagger: 0.2,
+                duration: 0.5,
+                ease: "power3.out",
+                onComplete: function () {
+                    let elements = document.querySelectorAll("#GramaSabhaCamp div");
+                    elements.forEach(el => {
+                        el.style.removeProperty("opacity");  // Removes GSAP inline opacity
+                        el.style.removeProperty("transform"); // Removes GSAP inline transform
+                    });
+                }
+            });;
+            gsap.from("#GramaSabhaCamp .grid-item", {
+                opacity: 0,
+                y: 30,
+                stagger: 0.1,
+                duration: 0.4,
+                delay: 0.3, // Add a slight delay so grid items animate after main divs
+                ease: "power2.out",
+                onComplete: function () {
+                    let gridItems = document.querySelectorAll("#GramaSabhaCamp .grid-item");
+                    gridItems.forEach(item => {
+                        item.style.removeProperty("opacity");
+                        item.style.removeProperty("transform");
+                    });
+                }
+            });
+        }
+
         if (sectionId === "PanCardCamp") {
             gsap.from("#PanCardCamp div", {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PanCardCamp div");
@@ -701,7 +764,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#VoterIDCamp div");
@@ -717,7 +780,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#BeachCleaning div");
@@ -733,7 +796,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Anganvadi div");
@@ -749,7 +812,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Schools div");
@@ -765,7 +828,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Library div");
@@ -781,7 +844,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.25, // Adjust the stagger timing
-                duration: 1.5,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicHotels > div > div > div");
@@ -798,7 +861,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#HealthCare div");
@@ -814,7 +877,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicPostOffice div");
@@ -830,7 +893,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#PublicToilet div");
@@ -846,7 +909,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Meeting_Halls div");
@@ -862,7 +925,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Ponds div");
@@ -878,7 +941,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Roads div");
@@ -894,7 +957,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#BusStand div");
@@ -911,7 +974,7 @@ function showList(sectionId) {
                 opacity: 0,
                 y: 50,
                 stagger: 0.2,
-                duration: 1.2,
+                duration: 0.5,
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#garbageImageGallery div");
@@ -925,7 +988,7 @@ function showList(sectionId) {
         AOS.refresh();
         gsap.fromTo(activeSection.querySelectorAll('.section'), 
             { opacity: 0, y: 50 },
-            { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", stagger: 0.3 }
+            { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", stagger: 0.3 }
         );
     }
 };
@@ -947,19 +1010,19 @@ function showSection(sectionId, clickedItem = null) {
         gsap.set(sections, { opacity: 0, y: 50 }); // Set initial state
 
         sections.forEach((section, index) => {
-            gsap.to(section, { opacity: 1, y: 0, duration: 1, delay: index * 0.3, ease: "power2.out" });
+            gsap.to(section, { opacity: 1, y: 0, duration: 0.5, delay: index * 0.3, ease: "power2.out" });
         });
     }
 
     if (sectionId === "Contactus") {
-        gsap.from("#Contactus", { opacity: 0, y: 100, duration: 1 });
+        gsap.from("#Contactus", { opacity: 0, y: 100, duration: 0.5 });
     }
     if (sectionId === "Achievements") {
         gsap.from("#Achievements div", {
             opacity: 0,
             y: 50,
             stagger: 0.2,
-            duration: 1.2,
+            duration: 0.5,
             ease: "power3.out",
             onComplete: function () {
                 let elements = document.querySelectorAll("#Achievements div");
@@ -971,7 +1034,7 @@ function showSection(sectionId, clickedItem = null) {
         });;
     }
     if (sectionId === "Home") {
-        gsap.from("#panchayat-overview", { opacity: 0, y: 50, duration: 1 });
+        gsap.from("#panchayat-overview", { opacity: 0, y: 50, duration: 0.5});
         fetch('/assets/__data/electedMembers.json') // Ensure the correct path to your JSON file
     .then(response => response.json())
     .then(data => {
@@ -984,12 +1047,12 @@ function showSection(sectionId, clickedItem = null) {
     AOS.refresh();
     gsap.fromTo(activeSection.querySelectorAll('.section'), 
         { opacity: 0, y: 50 },
-        { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", stagger: 0.3 }
+        { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", stagger: 0.3 }
     );
 }
 
 function animateCertificates() {
-    gsap.from(".certificate-item", { opacity: 0, y: 50, stagger: 0.3, duration: 1 });
+    gsap.from(".certificate-item", { opacity: 0, y: 50, stagger: 0.3, duration: 0.5});
     document.querySelectorAll('.certificate-item').forEach((item) => {
         item.classList.add('animate-bounce');
     });
