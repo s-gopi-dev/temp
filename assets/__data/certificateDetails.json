@@ -9,7 +9,7 @@
             "Father/Mother Community Certificate"
         ],
         "images": [
-            "/assets/images/taxs/birth certificate.jpg"
+            "/assets/images/taxs/cert.jpg"
         ],
         "time": "7 days"
     },
@@ -24,7 +24,7 @@
         "images": ["/assets/images/taxs/building license.jpg"],
         "time": "7 days"
         },
-        {
+    {
         "id": "Certificate-3",
         "title": "Residence Certificate",
         "documents": [
@@ -80,7 +80,7 @@
             "Smart Card",
             "Husband Death Certificate"
         ],
-        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "images": ["/assets/images/taxs/cert.jpg"],
         "time": "7 days"
     },
     {
@@ -93,7 +93,7 @@
             "Death Person Family Members Aadhar Card",
             "Applicant Photo"
         ],
-        "images": [ "/assets/images/taxs/building license.jpg"],
+        "images": [ "/assets/images/taxs/birth certificate.jpg"],
         "time": "15 days"
     },
     {
@@ -107,7 +107,7 @@
             "Residence Certificate",
             "Mother Sterilization Certificate"
         ],
-        "images": ["/assets/images/taxs/certificate 1.jpg"],
+        "images": ["/assets/images/taxs/building license.jpg"],
         "time": "30 days"
     },
     {
@@ -157,7 +157,7 @@
             "Proof Of Marriage",
             "Proof Of Desertion FIR Details"
         ],
-        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "images": ["/assets/images/taxs/cert.jpg"],
         "time": "30 days"
     },
     {
@@ -173,7 +173,7 @@
             "Voter ID",
             "Address Proof (If the Given Residential Address is Different From Aadhar)"
         ],
-        "images": [ "/assets/images/taxs/building license.jpg"],
+        "images": [ "/assets/images/taxs/birth certificate.jpg"],
         "time": "30 days"
     },
     {
@@ -187,7 +187,7 @@
             "Fisherman Cooperative Society Passbook With Photo",
             "Voter ID"
         ],
-        "images": ["/assets/images/taxs/certificate 1.jpg"],
+        "images": ["/assets/images/taxs/building license.jpg"],
         "time": "30 days"
     },
     {
@@ -196,7 +196,7 @@
         "documents": [
             "Challan Payment (Drink & Drive, Driving License, Insurance, Going Without A Helmet)"
         ],
-        "images": [ "/assets/images/taxs/birth certificate.jpg"],
+        "images": [ "/assets/images/taxs/community certificate.jpg"],
         "time": "15 days"
     },
     {
@@ -230,7 +230,7 @@
             "Change of Address In Ration Card",
             "Smart Card"
         ],
-        "images": ["/assets/images/taxs/birth certificate.jpg"],
+        "images": ["/assets/images/taxs/cert.jpg"],
         "time": "15 days"
     },
     {
