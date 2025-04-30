@@ -243,22 +243,6 @@ function MobileShowList(sectionId) {
                 }
             });;
         }
-        if (sectionId === "Disaster_Management"){
-            gsap.from("#Disaster_Management div", {
-                opacity: 0,
-                y: 50,
-                stagger: 0.2,
-                duration: 0.5,
-                ease: "power3.out",
-                onComplete: function () {
-                    let elements = document.querySelectorAll("#Disaster_Management div");
-                    elements.forEach(el => {
-                        el.style.removeProperty("opacity");  // Removes GSAP inline opacity
-                        el.style.removeProperty("transform"); // Removes GSAP inline transform
-                    });
-                }
-            });;
-        }
         if (sectionId === "Others"){
             const Others = document.getElementById("Others");
             animateManagement(Others);
@@ -652,22 +636,6 @@ function showList(sectionId) {
                 ease: "power3.out",
                 onComplete: function () {
                     let elements = document.querySelectorAll("#Drainage div");
-                    elements.forEach(el => {
-                        el.style.removeProperty("opacity");  // Removes GSAP inline opacity
-                        el.style.removeProperty("transform"); // Removes GSAP inline transform
-                    });
-                }
-            });;
-        }
-        if (sectionId === "Disaster_Management"){
-            gsap.from("#Disaster_Management div", {
-                opacity: 0,
-                y: 50,
-                stagger: 0.2,
-                duration: 0.5,
-                ease: "power3.out",
-                onComplete: function () {
-                    let elements = document.querySelectorAll("#Disaster_Management div");
                     elements.forEach(el => {
                         el.style.removeProperty("opacity");  // Removes GSAP inline opacity
                         el.style.removeProperty("transform"); // Removes GSAP inline transform
